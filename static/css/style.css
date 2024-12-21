@@ -767,3 +767,77 @@ header {
 /* .process__list__item:hover .process__desc {
     display: block;
 } */
+
+/*------------------instruction video------------------ */
+.instruction-video {
+    background: #143C3C;
+    margin-top: 148px;
+    padding: 56px 0 63px;
+}
+
+.instruction-container {
+    position: relative;
+}
+
+.instruction-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instruction__title {
+    position: relative;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    width: 457px;
+}
+
+.instruction__title::after {
+    position: absolute;
+    bottom: 25px;
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 2px;
+    background: #83A17D;
+    margin-left: 20px;
+}
+
+.instruction__desc {
+    width: 590px;
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #6A8383;
+}
+
+.instruction__desc__child {
+    color: #fff;
+    display: block;
+    margin-top: 13px;
+
+}
+
+.instruction__desc__child::after {
+    content: url('../image/arrow-right.svg');
+    margin-left: 26px;
+}
+
+.instruction__play {
+    margin-top: 65px;
+}
+
+.thumb__flower {
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+
+.thumb__flower-second {
+    position: absolute;
+    top: 15%;
+    right: 20px;
+}
